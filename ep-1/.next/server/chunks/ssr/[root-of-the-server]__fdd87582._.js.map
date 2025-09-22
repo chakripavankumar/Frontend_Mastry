@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/pavankumar/Desktop/%F0%9F%AB%B5%F0%9F%8F%BB/master_tailwind/ep-1/app/components/container.tsx"],"sourcesContent":["import React from \"react\";\n\nexport const Container = ({ children }: { children: React.ReactNode }) => {\n  return <div className=\"container\">{children}</div>;\n};\n"],"names":[],"mappings":";;;;;;AAEO,MAAM,YAAY,CAAC,EAAE,QAAQ,EAAiC;IACnE,qBAAO,8OAAC;QAAI,WAAU;kBAAa;;;;;;AACrC","debugId":null}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":["file:///Users/pavankumar/Desktop/%F0%9F%AB%B5%F0%9F%8F%BB/master_tailwind/ep-1/app/page.tsx"],"sourcesContent":["import { Container } from \"./components/container\";\nimport Hero from \"./components/hero\";\nimport Navbar from \"./components/navbar\";\n\nexport default function Home() {\n  return (\n    <div className=\"layout\">\n      <Container>\n        <div className=\"left-line\">\n\n        </div>\n       \n      </Container>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAIe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC,4IAAS;sBACR,cAAA,8OAAC;gBAAI,WAAU;;;;;;;;;;;;;;;;AAOvB","debugId":null}}]
+}
