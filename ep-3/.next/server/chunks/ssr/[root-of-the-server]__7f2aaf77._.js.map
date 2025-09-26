@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/pavankumar/Desktop/%F0%9F%AB%B5%F0%9F%8F%BB/ep-3/app/page.tsx"],"sourcesContent":["im\nexport default function Home() {\n  return <div className=\"flex h-screen justify-center bg-neutral-900\">\n    <Hero/>\n  </div>;\n}\n"],"names":[],"mappings":";;;;;;AAAA;AACe,SAAS;IACtB,qBAAO,8OAAC;QAAI,WAAU;kBACpB,cAAA,8OAAC;;;;;;;;;;AAEL","debugId":null}}]
+}
