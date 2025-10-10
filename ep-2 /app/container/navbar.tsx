@@ -18,7 +18,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="flex items-center justify-between py-4 px-4">
+    <div className="flex items-center justify-between px-4 py-4">
       <Link href="/">
         <Image
           draggable={false}
@@ -34,13 +34,13 @@ const Navbar = () => {
           <Link
             href={link.href}
             key={index}
-            className="text-neutral-800 font-medium hover:text-neutral-600 transition duration-200"
+            className="font-medium text-neutral-800 transition duration-200 hover:text-neutral-600"
           >
             {" "}
             {link.title}
           </Link>
         ))}
-        <button className="bg-[#2579F4] px-4 py-2 text-white rounded-xl shadow-lg text-shadow-md tracking-wide">
+        <button className="rounded-xl bg-[#2579F4] px-4 py-2 tracking-wide text-white shadow-lg text-shadow-md">
           {" "}
           Start Free Trail
         </button>
