@@ -23,6 +23,26 @@
   }
 }
 
+.dark {
+  --background: orange;
+  --foreground: #ededed;
+
+  --pattern-fg: rgba(237, 237, 237, 0.08);
+}
+
+.animate-me {
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
